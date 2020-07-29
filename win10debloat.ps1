@@ -206,9 +206,9 @@ Function InstallAdobe {
 	choco install adobereader -y
 }
 
-#Function InstallJava {
-#	Write-Output "Installing Java"
-#	choco install jre8 -y
+Function InstallJava {
+	Write-Output "Installing Java"
+	choco install jre8 -y
 }
 
 Function Install7Zip {
@@ -216,14 +216,14 @@ Function Install7Zip {
 	choco install 7zip -y
 }
 
-#Function InstallNotepadplusplus {
-#	Write-Output "Installing Notepad++"
-#	choco install notepadplusplus -y
+Function InstallNotepadplusplus {
+	Write-Output "Installing Notepad++"
+	choco install notepadplusplus -y
 }
 
-#Function InstallMediaPlayerClassic {
-#	Write-Output "Installing Media Player Classic (VLC Alternative)"
-#	choco install mpc-hc -y
+Function InstallMediaPlayerClassic {
+	Write-Output "Installing Media Player Classic (VLC Alternative)"
+	choco install mpc-hc -y
 }
 
 ##########
